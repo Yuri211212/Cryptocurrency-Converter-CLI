@@ -3,7 +3,7 @@
 ### Description:
 CLI utility, where user can convert one currency into another.
 
-To get the hotels in a specific area is used CoinMarketCap API.
+To get the currency exchange rate is used CoinMarketCap API.
 
 ### Languages, Technologies, Tools:  
 * TypeScript
