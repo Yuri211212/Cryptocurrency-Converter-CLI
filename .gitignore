@@ -1,0 +1,7 @@
+/node_modules
+
+# Builded from ts to js files
+/build
+
+# Configuration file
+.env
