@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 
-dotenv.config();
+dotenv.config()
 const API_KEY = process.env.API_KEY;
 
 //list of input questions for CLI with included validation
@@ -16,7 +16,7 @@ const questions: [object, object, object] = [
             return val.toUpperCase();
         },
         validate(val: String) {
-            const pass = val.length == 3 ? true : false;
+            const pass = val.length == 3;
             if (pass) {
                 return true;
             }
@@ -32,7 +32,7 @@ const questions: [object, object, object] = [
             return val.toUpperCase();
         },
         validate(val: String) {
-            const pass = val.length == 3 ? true : false;
+            const pass = val.length == 3;
             if (pass) {
                 return true;
             }
