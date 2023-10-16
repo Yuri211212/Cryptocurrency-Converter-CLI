@@ -4,6 +4,7 @@ import inquirer from 'inquirer';
 import chalk from 'chalk';
 
 dotenv.config();
+
 const API_KEY = process.env.API_KEY;
 
 //list of input questions for CLI with included validation
